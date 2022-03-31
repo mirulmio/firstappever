@@ -18,6 +18,7 @@ requirements.txt means what version of streamlit, numpy and pandas used
 in myfirstapp.py, initialise the requirements first (streamlit, pandas, numpy, time)
 header,checkbox is the function in streamlit for UI
 input widget means interactive widget (checkbox and stuff)
-write means write the sentences
-[name of anything](website)
-sidebar.selectbox means sidebar menu
+write means write the sentences. if u put triple star means everything within the triple star is an essay.
+[hyperlink](website) syntax; unsafe_allow_html means we allow python to access html despite unsafe
+sidebar.selectbox means sidebar menu; if you dont have sidebar they will show the option at the main page
+time.sleep means the time the bar updating/loading ; time.sleep = 0.1 means from 0 to 1 takes 0.1 seconds
